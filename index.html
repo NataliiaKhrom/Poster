@@ -6,23 +6,83 @@
 
    <style media="screen">
 
+/* DETAILS BACKGROUND */
 
-   /* General styling */
+
+ .backgr_detail {
+  width: 1167px;
+  height: 938px;
+  background: url('Images/b_detail_circle2.svg') no-repeat;
+  opacity: 0;
+  position: fixed;
+  z-index: 2;
+    /* margin-left: 215px; */
+  top: -23px;
+  left: 211px;}
+
+
+/* BACKGROUND */
+
+
+   .backgr2 {
+    width: 100%;
+    height: 100%;
+    /*width: 1440px;
+    height: 900px;
+    opacity: .4;*/
+    opacity: 0;
+    display: block;
+    position: fixed;
+    background: url('Images/backgr_2_ranged.png') no-repeat;
+    margin-left: 0;
+    margin-top: 0;
+    z-index: 1;}
+
+    .backgr {
+      width: 100%;
+      height: 100%;
+      /*width: 1440px;
+      height: 900px;
+      opacity: .4;*/
+      opacity: 0;
+      position: absolute;
+      background: url('Images/backgr_ranged.png');
+      margin-left: 0;
+      margin-top: 0;}
+
+
+
+   /* GENERAL BODY STYLING*/
    body {
-     margin: 0;
-     background: #grey;
      width: 1440px;
      height: 900px;
-   }
-
-   .maket {  width: 100%;
-     height: 100%;
-     display: block;
+    display: block;
+     margin: 0 auto;
      position: relative;
-     background: url('Images/maket');
-     background-position: 0 top;
-     opacity: .5;}
+     background: white;}
 
+     body::before {
+       content: '';
+       width: 100%;
+       /*width: 1440px;
+       height: 900px;*/
+       position: absolute;
+       background: url('Images/maket.png');
+       margin-left: 0;
+       margin-top: 0;
+       height: 100%;
+       opacity: .2;}
+
+     /* .maket { width: 100%;
+       height: 100%;
+       width: 1440px;
+       height: 900px;
+       position: relative;
+       background: url('Images/maket.png');
+       margin-left: 0;
+       margin-top: 0;
+       opacity: .2;
+       z-index: -1;} */
 
    </style>
 
@@ -31,14 +91,20 @@
 
   <body>
 
-    <div class="maket">
+<!--  <div class="background">
+    <div class="backgr"></div>
+    <div class="backgr2"></div>
+  </div> -->
 
-    </div>
+  <div class="backgr"></div>
+
+  <div class="backgr2"></div>
+
+  <div class="backgr_detail">
+   <!-- <img src='Images/b_detail_circle.svg' alt=''> -->
+  </div>
 
 
-    <div class="backgr">
-
-    </div>
 
 
   </body>
