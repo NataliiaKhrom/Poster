@@ -1,0 +1,30 @@
+<svg width="939" height="254" viewBox="0 0 939 254" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path opacity="0.32" d="M907.96 62.87V170.08L935.11 197.23V252.4H2.1V197.23L29.24 170.08V62.87L0 33.63V0.0100021L459.48 2.29L606.68 1.31L629.95 24.58H791.29L768.85 2.14L937.2 0.0100021V33.63L907.96 62.87Z" fill="#74FFFD" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<g style="mix-blend-mode:difference">
+<path d="M908.46 63.37V170.58L935.61 197.72V252.89H2.6V197.72L29.74 170.58V63.37L0.5 34.12V0.510002L459.98 2.78L607.18 1.81L630.45 25.08H791.79L769.35 2.63L937.7 0.510002V34.12L908.46 63.37Z" stroke="#4AFFF2" stroke-miterlimit="10"/>
+</g>
+<g style="mix-blend-mode:darken" opacity="0.76">
+<path d="M873.3 229H63V24H555.84L600.81 68.97H809.13H829.78L873.78 26L873.3 68.97" fill="black"/>
+</g>
+<g clip-path="url(#clip1)">
+<path opacity="0.5" d="M23.28 72.93L1 50.65V70.14L23.28 92.42V72.93Z" stroke="#4AFFF2" stroke-width="2" stroke-miterlimit="10"/>
+<path opacity="0.5" d="M23.28 103.56L1 81.28V100.77L23.28 123.05V103.56Z" stroke="#4AFFF2" stroke-width="2" stroke-miterlimit="10"/>
+<path opacity="0.5" d="M23.28 131.41L1 109.13V128.62L23.28 150.9V131.41Z" stroke="#4AFFF2" stroke-width="2" stroke-miterlimit="10"/>
+<path opacity="0.5" d="M918.7 72.93L940.98 50.65V70.14L918.7 92.42V72.93Z" stroke="#4AFFF2" stroke-width="2" stroke-miterlimit="10"/>
+<path opacity="0.5" d="M918.7 103.56L940.98 81.28V100.77L918.7 123.05V103.56Z" stroke="#4AFFF2" stroke-width="2" stroke-miterlimit="10"/>
+<path opacity="0.5" d="M918.7 131.41L940.98 109.13V128.62L918.7 150.9V131.41Z" stroke="#4AFFF2" stroke-width="2" stroke-miterlimit="10"/>
+<path opacity="0.5" d="M624.46 2.04L636.19 13.95H668.71L657.55 2.6L624.46 2.04Z" stroke="#4AFFF2" stroke-width="2" stroke-miterlimit="10"/>
+<path opacity="0.5" d="M674.46 2.04L686.19 13.95H718.71L707.55 2.6L674.46 2.04Z" stroke="#4AFFF2" stroke-width="2" stroke-miterlimit="10"/>
+<path opacity="0.5" d="M723.17 2.54L734.39 13.95H766.92L756.25 3.1L723.17 2.54Z" stroke="#4AFFF2" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="938.2" height="253.39" fill="white"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="941.98" height="152.31" fill="white" transform="translate(0 1)"/>
+</clipPath>
+</defs>
+</svg>
