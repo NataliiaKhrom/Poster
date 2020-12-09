@@ -6,11 +6,24 @@
 
    <style media="screen">
 
+/* HOVER ELEMENTSS  */
+
+.window_form {
+  background: url('Images/window_1.svg') no-repeat;
+   opacity: 0;
+   position: fixed;
+   z-index: 6;
+
+   width: 938px;
+   height: 253px;
+   top: 600px;
+   left: 250px;}
+
 /* CLOUDS*/
 
 .cloud_right {
  background: url('Images/cloud_right.svg') no-repeat;
- /* opacity: 0; */
+ /*opacity: 0;*/
  position: fixed;
  z-index: 5;
 
@@ -21,7 +34,7 @@
 
  .cloud_left {
   background: url('Images/cloud_left.svg') no-repeat;
-  /* opacity: 0; */
+   /*opacity: 0;*/
   position: fixed;
   z-index: 5;
 
@@ -32,7 +45,7 @@
 
   .cloud_3 {
    background: url('Images/cloud_3.svg') no-repeat;
-   /* opacity: 0; */
+   /*opacity: 0;*/
    position: fixed;
    z-index: 5;
 
@@ -57,7 +70,7 @@
 
    .star1 {
      background: url('Images/an_star_1.svg') no-repeat;
-     /* opacity: 0; */
+     /*opacity: 0;*/
      position: fixed;
      z-index: 4;
 
@@ -68,7 +81,7 @@
 
      .star2 {
        background: url('Images/an_star_2.svg') no-repeat;
-       /* opacity: 0; */
+        /*opacity: 0;*/
        position: fixed;
        z-index: 4;
 
@@ -79,7 +92,7 @@
 
        .star3 {
          background: url('Images/an_star_3.svg') no-repeat;
-         /* opacity: 0; */
+          /*opacity: 0;*/
          position: fixed;
          z-index: 4;
 
@@ -90,7 +103,7 @@
 
          .star4 {
            background: url('Images/an_star_4.svg') no-repeat;
-           /* opacity: 0; */
+            /*opacity: 0;*/
            position: fixed;
            z-index: 4;
 
@@ -105,7 +118,7 @@
 
  .backgr_detail {
   background: url('Images/b_detail_fullcircle.svg') no-repeat;
-  /* opacity: 0; */
+   /*opacity: 0;*/
   position: fixed;
   z-index: 2;
 
@@ -116,7 +129,7 @@
 
 .backgr_stars {
   background: url('Images/backgr_detail.svg') no-repeat;
-  /* opacity: 0; */
+   /*opacity: 0;*/
   position: fixed;
   z-index: 3;
 
@@ -124,6 +137,17 @@
   height: 900px;
   top: 12px;
   left: 25px;}
+
+  .backgr_stars2 {
+    background: url('Images/backgr_details_dots.svg') no-repeat;
+     /*opacity: 0;*/
+    position: fixed;
+    z-index: 3;
+
+    width: 1440px;
+    height: 900px;
+    top: 12px;
+    left: 25px;}
 
 
 
@@ -136,7 +160,7 @@
     /*width: 1440px;
     height: 900px;
     opacity: .4;*/
-    /* opacity: 0; */
+     /*opacity: 0;*/
     display: block;
     position: fixed;
     background: url('Images/backgr_2_ranged.png') no-repeat;
@@ -152,7 +176,7 @@
       /*width: 1440px;
       height: 900px;
       opacity: .4;*/
-    /* opacity: 0; */
+       /*opacity: 0;*/
       display: block;
       position: relative;
       background: url('Images/backgr_ranged.png');
@@ -177,14 +201,22 @@
      body::before {
        content: '';
        width: 100%;
-       /*width: 1440px;
-       height: 900px;*/
        position: absolute;
        background: url('Images/maket.png');
        margin-left: 0;
        margin-top: 0;
        height: 100%;
        opacity: .2;}
+
+    /* body::before {
+       content: '';
+       width: 100%;
+       position: absolute;
+       background: url('Images/maket.png');
+       margin-left: 0;
+       margin-top: 0;
+       height: 100%;
+       opacity: .2;} */
 
      /* .maket { width: 100%;
        height: 100%;
@@ -218,6 +250,7 @@
   </div>
 
   <div class="backgr_stars"></div>
+    <div class="backgr_stars2"></div>
 
     <div class="star1"></div>
     <div class="star2"></div>
@@ -229,6 +262,8 @@
 
 <div class="cloud_3"></div>
 <div class="cloud_4"></div>
+
+<div class="window_form"></div>
 
 
 
