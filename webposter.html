@@ -32,20 +32,30 @@
    /* PLANETS*/
 
  .planet1 {
+   z-index: 1;
  position: absolute;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
  }
  .planet2 {
+      z-index: 1;
  position: absolute;
  top: 98%;
  left: 50%;
  transform: translate(-50%, -50%);
  }
  .planet3 {
+      z-index: 1;
  position: absolute;
  top: 125%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+
+ .planet_backgr {
+ position: absolute;
+ top: 0%;
  left: 50%;
  transform: translate(-50%, -50%);
  }
@@ -54,6 +64,7 @@
  margin-left: auto;
  margin-right: auto;
  width: 90%;}
+
 
  /*
    .planet1 {
@@ -303,13 +314,12 @@
 
  .backgr_detail {
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     display: block;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;}
-
   .backgr_detail::before {
     background: url('Images/b_detail_fullcircle.svg') no-repeat center;
   background-size: auto 145% ;
@@ -377,7 +387,7 @@ height: 100%;}
    .backgr2 {
 
         position: fixed;
-        z-index: 1;
+        z-index: 2;
         display: block;
         top: 0;
         left: 0;
@@ -534,16 +544,25 @@ height: 100%;}
 <div class="pocket">
 
 <div class="planet1">
- <img src="Images/planet_1.svg" alt="">
+ <!-- <img src="Images/planet_1.svg" alt=""> -->
+ <img src="Images/planet1.svg" alt="">
 </div>
 
 <div class="planet2">
-  <img src="Images/planet_2.svg" alt="">
+  <!-- <img src="Images/planet_2.svg" alt=""> -->
+  <img src="Images/planet2.svg" alt="">
 </div>
 
 <div class="planet3">
-   <img src="Images/Frame_3.svg" alt="">
+   <!-- <img src="Images/Frame_3.svg" alt=""> -->
+   <img src="Images/Frame3.svg" alt="">
 </div>
+
+<div class="planet_backgr">
+   <!-- <img src="Images/Frame_3.svg" alt=""> -->
+   <img src="Images/planet_backgr.svg" alt="">
+</div>
+
 </div>
 
 
