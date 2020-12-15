@@ -53,7 +53,27 @@
  transform: translate(-50%, -50%);
  }
 
+
  .planet_backgr {
+   width: 100%;
+   height: 100%;
+   /*opacity: 0; */
+     position: fixed;
+    z-index: 0;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+   bottom: 0}
+ .planet_backgr::before {
+      background: url('Images/planet_backgr.svg') no-repeat center;
+      background-size: auto 160%;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;}
+
+ /* .planet_backgr {
  position: absolute;
  top: 0%;
  left: 50%;
@@ -64,7 +84,7 @@
  margin-left: auto;
  margin-right: auto;
  width: 90%;}
-
+*/
 
  /*
    .planet1 {
@@ -394,7 +414,7 @@ height: 100%;}
         right: 0;
         bottom: 0;}
      .backgr2::before {
-       opacity: .95;
+       opacity: 1;
         background: url('Images/backgr_fix_2.svg') no-repeat center;
         background-size: auto 130% ;
         content: "";
@@ -559,14 +579,11 @@ height: 100%;}
 </div>
 
 <div class="planet_backgr">
-   <!-- <img src="Images/Frame_3.svg" alt=""> -->
-   <img src="Images/planet_backgr.svg" alt="">
-</div>
+   <!-- <img src="Images/planet_backgr.svg" alt=""> -->
 
 </div>
 
-
-<div class="planet4"></div>
+</div>
 
 <div class="effect"></div>
 
