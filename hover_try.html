@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title></title>
+
+<style media="screen">
+
+
+.pocket {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-bottom: 100%;
+}
+
+ .planet1 {
+   z-index: 1;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+
+ .planet2 {
+      z-index: 1;
+ position: absolute;
+ top: 98%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+ .planet3 {
+      z-index: 1;
+ position: absolute;
+ top: 125%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+
+.container
+{
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+  /*display: none;*/
+  opacity: 0;
+}
+
+  .window_form {
+   width: 100%;
+   height: 100%;
+     position: fixed;
+    z-index: 9;
+   display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+   bottom: 0;}
+ .window_form::before {
+    background: url('Images/window_1.svg') no-repeat center;
+    background-size: auto 30% ;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30%;}
+
+
+.btn1 {
+       width:15vh;
+       height: 15vh;
+       background: white;
+       opacity: 0.5;
+       display: none;
+       z-index: 7;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);}
+
+.btn1_1 {width:40vh;
+              height: 40vh;
+              background: white;
+              opacity: 0.5;
+              z-index: 7;
+              position: fixed;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);}
+
+
+              .btn1_1:hover ~ .btn1 {
+                display: block;
+              }
+
+              .btn1:hover ~ .container {
+                opacity: 1;
+              }
+
+
+
+    /*  .btn1:hover ~ .container {
+       opacity: 1;
+     } */
+
+     /* GENERAL BODY STYLING*/
+     html {
+         height: 100%;
+     }
+     body {
+         margin: 0;
+         height: 100%;
+         min-height: 100%;
+       background: #000017;
+       overflow-y: scroll;}
+
+
+</style>
+
+
+  </head>
+
+
+
+  <body>
+
+    <div class="pocket">
+
+    <div class="planet1">
+     <!-- <img src="Images/planet_1.svg" alt=""> -->
+     <img src="Images/planet1.svg" alt="">
+    </div>
+
+    <div class="planet2">
+      <!-- <img src="Images/planet_2.svg" alt=""> -->
+      <img src="Images/planet2.svg" alt="">
+    </div>
+
+    <div class="planet3">
+       <!-- <img src="Images/Frame_3.svg" alt=""> -->
+       <img src="Images/planet_3.svg" alt="">
+    </div>
+
+    </div>
+
+     <div class="btn1_1"> </div>
+
+     <div class="btn1"> </div>
+
+    <div class="container">
+
+      <div class="window_form"></div>
+    </div>
+
+
+  </body>
+</html>
