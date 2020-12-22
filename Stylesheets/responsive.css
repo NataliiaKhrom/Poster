@@ -1,13 +1,29 @@
-/* @media all and (max-width: 1340px) {
-  .sidebar {display: none;}
-} */
 
-@media all and (max-width: 1340px) {
-	.sidebar {
-		display: none;
-	}
+/* IPHONE */
+
+@media all and (max-width: 320px) {
+	 .star3, .star4, .cloud_3, .cloud_4 {
+		display: none;	}
+
+ .cloud_right::before, .cloud_left::before {
+	 background-size: auto 40% ; }
+
+	 .planet1, .planet2, .planet3 {}
+
+		.btn1 {display: none;}
+
+		.backgr_stars::before {background-size: auto 50% ;}
+
 }
 
-@media all and (max-width: 1020px) {
-	article img { width: 100%; }
+
+/*ПРОЧЕЕ*/
+
+
+@media all and (max-width: 420px) {
+		  .star2::before {background-size: auto 60%;}
+}
+
+@media all and (max-width: 375px) {
+		  .star2::before {background-size: auto 50%;}
 }
