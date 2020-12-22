@@ -5,30 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link rel="stylesheet" href="Stylesheets/reset.css">
+    <!-- <link rel="stylesheet" href="Stylesheets/responsive.css"> -->
+
+    <!-- <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
+        <link rel="icon" type="image/png" href="Images/favicon.png" /> -->
 
    <style media="screen">
-
-/* HOVER ELEMENTSS  */
-
-
-   .window_form {
-    width: 100%;
-    height: 100%;
-      position: fixed;
-     z-index: 5;
-     display: none;
-     top: 0;
-     left: 0;
-     right: 0;
-    bottom: 0;}
-  .window_form::before {
-     background: url('Images/window_1.svg') no-repeat center;
-     background-size: auto 30% ;
-     content: "";
-     position: absolute;
-     width: 100%;
-     height: 100%;
-     top: 30%;}
 
 
 
@@ -50,9 +32,6 @@
  transform: translate(-50%, -50%);
  }
 
-
-
-
  .planet2 {
       z-index: 1;
  position: absolute;
@@ -68,6 +47,76 @@
  transform: translate(-50%, -50%);
  }
 
+ /* HOVER ELEMENTSS  */
+.container
+{
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+  display: none;
+}
+
+    .window_form {
+     width: 100%;
+     height: 100%;
+       position: fixed;
+      z-index: 9;
+     display: block;
+      top: 0;
+      left: 0;
+      right: 0;
+     bottom: 0;}
+   .window_form::before {
+      background: url('Images/window_1.svg') no-repeat center;
+      background-size: auto 30% ;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 30%;}
+
+ /*РАЗББОРКИ ХОВЕРА */
+
+ /* .btn1 {
+        width:15vh;
+        height: 15vh;
+        z-index: 7;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);} */
+
+      .btn1 {
+              z-index: 7;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);;}
+
+      .btn1:hover ~ .container {
+        display: block;
+      }
+
+      /* .planet1:hover ~ .container {
+        display: block;
+      } */
+
+
+
+
+ .btn1 {
+     width:15vh;
+     height: 15vh;
+     z-index: 7;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);}
+
+   .btn1:hover .container {
+     display: block;
+     /* opacity: 1; */
+   }
 
  .planet_backgr {
    width: 100%;
@@ -87,6 +136,11 @@
       position: absolute;
       width: 100%;
       height: 100%;}
+
+
+
+
+      /* СТАРОЕ */
 
  /* .planet_backgr {
  position: absolute;
@@ -159,6 +213,7 @@
             position: absolute;
             width: 100%;
             height: 100%;} */
+
 
 .target {
   width: 100%;
@@ -280,7 +335,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        animation: star4 6s linear infinite;}
+        animation: star4 8s linear infinite;}
 
      .star2 {
        position: fixed;
@@ -297,7 +352,7 @@
           position: absolute;
           width: 100%;
           height: 100%;
-          animation: star4 6s linear infinite;}
+          animation: star4 8s linear infinite;}
 
 
        .star3 {
@@ -315,7 +370,7 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            animation: star4 6s linear infinite;}
+            animation: star4 8s linear infinite;}
 
 
 
@@ -336,7 +391,7 @@
    position: absolute;
    width: 100%;
    height: 100%;
-   animation: star4 6s linear infinite;
+   animation: star4 8s linear infinite;
 }
 
 @keyframes star4 {
@@ -562,14 +617,17 @@ height: 100%;}
 
 <div class="planet_backgr">
    <!-- <img src="Images/planet_backgr.svg" alt=""> -->
-
-</div>
-
 </div>
 
 <div class="effect"></div>
 
-<div class="window_form"></div>
+
+
+<div class="btn1"> </div>
+
+<div class="container">
+  <div class="window_form"></div>
+</div>
 
 
 
