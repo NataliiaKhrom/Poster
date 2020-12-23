@@ -11,17 +11,48 @@ body {
   background: #000017;
   overflow-y: scroll;}
 
-  /* body::before {
-    content: '';
-    width: 100%;
-    position: absolute;
-    background: url('Images/maket.png') no-repeat;
-    opacity: 0;
-    display: block;
-    margin-left: 0;
-    margin-top: 0;
-    height: 100%;
-    opacity: .2;} */
+
+/* WINDEWS */
+.window_2 {
+  width: 100%;
+  height: 100%;
+  /*opacity: 0; */
+    position: fixed;
+   z-index: 12;
+   mix-blend-mode: difference;
+   opacity: .4;
+   display: none;
+   top: 0;
+   left: 0;
+   right: 0;
+  bottom: 0}
+.window_2::before {
+     background: url('../Images/window_2_backgr.svg') no-repeat center bottom;
+     background-size: auto 29%;
+     top: 1vh;
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;}
+
+.window_1 {
+  width: 100%;
+  height: 100%;
+  /*opacity: 0; */
+    position: fixed;
+   z-index: 13;
+   display: none;
+   top: 0;
+   left: 0;
+   right: 0;
+  bottom: 0}
+.window_1::before {
+     background: url('../Images/window_2.svg') no-repeat center bottom;
+     background-size: auto 26%;
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;}
 
    /* PLANETS*/
 
