@@ -65,7 +65,7 @@ body {
 
 
  .planet1 {
-   z-index: 1;
+z-index: 1;
  position: absolute;
  top: 50%;
  left: 50%;
@@ -82,9 +82,9 @@ position: relative;
 display: block;
 opacity: 0;
 -webkit-transition: opacity 1s ease-out 0.5s;
-  -moz-transition: opacity 1s ease-out 0.5s;
-  -o-transition: opacity 1s ease-out 0.5s;
-  transition: opacity 1s ease-out 0.5s;}
+-moz-transition: opacity 1s ease-out 0.5s;
+-o-transition: opacity 1s ease-out 0.5s;
+transition: opacity 1s ease-out 0.5s;}
 
     .window_form {
      width: 100%;
@@ -97,13 +97,32 @@ opacity: 0;
       right: 0;
      bottom: 0;}
    .window_form::before {
-      background: url('../Images/window_1.svg') no-repeat center;
+      background: url('../Images/difference.svg') no-repeat center;
       background-size: auto 30% ;
       content: "";
       position: absolute;
       width: 100%;
       height: 100%;
       top: 30%;}
+
+      .window_form2 {
+       width: 100%;
+       height: 100%;
+      position: fixed;
+      z-index: 15;
+       display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+       bottom: 0;}
+     .window_form2::before {
+        background: url('../Images/text.svg') no-repeat center;
+        background-size: auto 30% ;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 30%;}
 
       .darken {
        width: 100%;
