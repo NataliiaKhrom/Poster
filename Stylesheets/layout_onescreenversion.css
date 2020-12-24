@@ -105,13 +105,33 @@ body {
 }
 
 
- .planet1 {
+.planet1 {
+  width: 100%;
+  height: 100%;
+  /*opacity: 0; */
+    position: fixed;
+   z-index: 1;
+   display: block;
+   top: 0;
+   left: 0;
+   right: 0;
+  bottom: 0}
+.planet1::before {
+     background: url('../Images/planet_1.svg') no-repeat center;
+     background-size: auto 20%;
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;}
+
+
+/* .planet1 {
 z-index: 1;
  position: absolute;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
- }
+ } */
 
 
  /* HOVER ELEMENTSS  */
