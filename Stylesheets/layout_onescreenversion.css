@@ -55,6 +55,47 @@ body {
      width: 100%;
      height: 100%;}
 
+     .window_2_2 {
+       width: 100%;
+       height: 100%;
+       /*opacity: 0; */
+         position: fixed;
+        z-index: 12;
+        mix-blend-mode: difference;
+        opacity: .4;
+         display: none;
+        top: 0;
+        left: 0;
+        right: 0;
+       bottom: 0}
+     .window_2_2::before {
+          background: url('../Images/window_2_backgr_2.svg') no-repeat center bottom;
+          background-size: auto 29%;
+          top: 1vh;
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;}
+
+     .window_1_2 {
+       width: 100%;
+       height: 100%;
+       /*opacity: 0; */
+         position: fixed;
+        z-index: 13;
+        display: none;
+        top: 0;
+        left: 0;
+        right: 0;
+       bottom: 0}
+     .window_1_2::before {
+          background: url('../Images/window_2_2.svg') no-repeat center bottom;
+          background-size: auto 26%;
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;}
+
    /* PLANETS*/
 
  .pocket {
@@ -137,12 +178,32 @@ transition: opacity 1s ease-out 0.5s;}
         right: 0;
        bottom: 0;}
      .darken::before {
-        background: url('../Images/darken.svg') no-repeat center;
+        background: url('../Images/darken_2.svg') no-repeat center;
         background-size: auto 130%;
         content: "";
         position: absolute;
         width: 100%;
         height: 100%;}
+
+        .eff {
+         width: 100%;
+         height: 100%;
+         mix-blend-mode: hard-light;
+         opacity: .7;
+        position: fixed;
+        z-index: 12;
+         display: block;
+          top: 0;
+          left: 0;
+          right: 0;
+         bottom: 0;}
+       .eff::before {
+          background: url('../Images/darken_effect.svg') no-repeat center;
+          background-size: auto 80%;
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;}
 
 
  .planet1 {
@@ -166,6 +227,10 @@ transition: opacity 1s ease-out 0.5s;}
    .btn1:hover ~ .container {
     opacity: 1;}
 
+    .btn1:hover ~ .target2
+    {display: none;}
+
+
 .target {
   width: 100%;
   height: 100%;
@@ -186,6 +251,52 @@ transition: opacity 1s ease-out 0.5s;}
      height: 100%;}
 
 
+     .target2 {
+       mix-blend-mode: hard-light;
+       width: 100%;
+       height: 100%;
+       /*opacity: 0; */
+         position: fixed;
+        z-index: 14;
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+       bottom: 0;}
+     .target2::before {
+          background: url('../Images/aim_2_2.svg') no-repeat center;
+          background-size: auto 20% ;
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          animation: aim 4s;}
+@keyframes aim {
+  0% {opacity: 0;}
+  28% {opacity: 0;}
+  29% {opacity: .4;}
+  30% {opacity: .8;
+    background-size: auto 32%;}
+  35% {opacity: .4;}
+  45% {opacity: 0;}
+  48% {opacity: 0;}
+  49% {opacity: .4;}
+  50%  {opacity: .8;
+    background-size: auto 28%;}
+  55% {opacity: .4;}
+  65% {opacity: 0;}
+  68% {opacity: 0;}
+  69% {opacity: .4;}
+  70%  {opacity: .8;
+    background-size: auto 24%;}
+  75% {opacity: .4;}
+  79% {opacity: 0;}
+  100% {opacity: 0;
+    background-size: auto 20%;}
+}
+
+
 /* CLOUDS*/
 
  .cloud_right {
@@ -193,7 +304,7 @@ transition: opacity 1s ease-out 0.5s;}
   height: 100%;
   /*opacity: 0; */
     position: fixed;
-   z-index: 5;
+   z-index: 6;
    display: block;
    top: 0;
    left: 0;
@@ -212,7 +323,7 @@ transition: opacity 1s ease-out 0.5s;}
     height: 100%;
     /*opacity: 0; */
       position: fixed;
-     z-index: 5;
+     z-index: 6;
      display: block;
      top: 0;
      left: 0;
@@ -231,7 +342,7 @@ transition: opacity 1s ease-out 0.5s;}
     height: 100%;
   /*opacity: 0; */
     position: fixed;
-   z-index: 5;
+   z-index: 6;
    display: block;
    top: 0;
    left: 0;
@@ -252,7 +363,7 @@ transition: opacity 1s ease-out 0.5s;}
      height: 100%;
    /*opacity: 0; */
      position: fixed;
-    z-index: 5;
+    z-index: 6;
     display: block;
     top: 0;
     left: 0;
@@ -263,7 +374,7 @@ transition: opacity 1s ease-out 0.5s;}
     background-size: auto 5%;
     content: "";
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 85%;
     width: 100%;
     height: 100%;}
@@ -379,14 +490,67 @@ transition: opacity 1s ease-out 0.5s;}
      left: 0;
      right: 0;
      bottom: 0;}
-
 .backgr_stars::before {
-  background: url('../Images/backgr_detail.svg') center;
+  background: url('../Images/backgr_detail_1.svg') center;
 background-size: auto 90% ;
 content: "";
 position: absolute;
 width: 100%;
 height: 100%;}
+
+.backgr_stars_eff {
+    opacity: 0;
+    mix-blend-mode: hard-light;
+     position: fixed;
+     z-index: 5;
+     display: block;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     animation: flicker 2s linear infinite;
+     animation-delay: 1s;}
+.backgr_stars_eff::before {
+  background: url('../Images/backgr_detail_eff.svg') center;
+background-size: auto 90% ;
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;}
+
+@keyframes flicker {
+  0% {opacity: 0;}
+  30% {opacity: .5;}
+  60% {opacity: .7;}
+  100% {opacity: 0;}}
+
+
+  .backgr_stars_eff2 {
+    opacity: 0;
+      mix-blend-mode: hard-light;
+       position: fixed;
+       z-index: 5;
+       display: block;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       animation: flicker 2s linear infinite;
+       animation-delay: 3s;}
+  .backgr_stars_eff2::before {
+    background: url('../Images/backgr_detail_eff_2.svg') center;
+  background-size: auto 90% ;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;}
+
+  @keyframes flicker1 {
+    0% {opacity: 0;}
+    40% {opacity: .3;}
+    80% {opacity: .5;}
+    100% {opacity: 0;}}
+
 
   .backgr_stars2 {
   position: fixed;
@@ -420,7 +584,75 @@ position: absolute;
 top: 10%;
 right: 10%;
 width: 100%;
-height: 100%;}
+height: 100%;
+animation: stars 3s infinite;}
+
+/* @keyframes stars {
+  0% {opacity: 1;
+      top: 10%;}
+  44% {opacity: 1;
+      top: 10%;}
+  46% {opacity: 0;
+        top: 10%;}
+  48% {opacity: 0;
+      top: 20%;}
+  50% {opacity: 1;
+      top: 20%;}
+  94% { opacity: 1;
+      top: 20%;}
+  96% {opacity: 0;
+      top: 20%;}
+  98% {opacity: 0;
+        top: 10%;}
+  100% {opacity: 1;
+        top: 10%;}
+} */
+
+@keyframes stars {
+/* ПОЗИЦИЯ 1 */
+  0% {opacity: 1;
+      top: 10%;
+      right: 10%;}
+  27% {opacity: 1;
+      top: 10%;
+      right: 10%;}
+  29% {opacity: 0;
+        top: 10%;
+        right: 10%;}
+  /* ПОЗИЦИЯ 2 */
+  31% {opacity: 0;
+      top: 20%;
+      right: 0%;}
+  33% {opacity: 1;
+      top: 20%;
+      right: 0%;}
+  60% { opacity: 1;
+      top: 20%;
+      right: 0%;}
+  62% {opacity: 0;
+      top: 20%;
+      right: 0%;}
+  /* ПОЗИЦИЯ 3 */
+  64% {opacity: 0;
+        top: -10%;
+        right: -10%;}
+  66% {opacity: 1;
+        top: -10%;
+        right: -10%;}
+  94% { opacity: 1;
+        top: -10%;
+        right: -10%;}
+  96% {opacity: 0;
+      top: -10%;
+      right: -10%;}
+        /* ПОЗИЦИЯ 1 */
+  98% {opacity: 0;
+      top: 10%;
+      right: 10%;}
+  100% {opacity: 1;
+        top: 10%;
+        right: 10%;}
+}
 
 
 
@@ -428,7 +660,6 @@ height: 100%;}
 
 
    .backgr2 {
-
         position: fixed;
         z-index: 2;
         display: block;
@@ -457,6 +688,7 @@ height: 100%;}
                } */
 
        .effect {
+         mix-blend-mode: difference;
           position: fixed;
              z-index: 7;
              display: block;
@@ -465,14 +697,21 @@ height: 100%;}
              right: 0;
              bottom: 0;}
           .effect::before {
-            opacity: .5;
+            opacity: .4;
              background: url('../Images/effect.svg') no-repeat center;
              background-blend-mode: difference;
              background-size: auto 130% ;
              content: "";
              position: absolute;
              width: 100%;
-             height: 100%;}
+             height: 100%;
+             animation: effect 6s}
+
+        @keyframes effect {
+          0% {opacity: .4;}
+          50% {opacity: 0;}
+          100% {opacity: .4;]
+        }
 
 
       /*.backgr_long {
