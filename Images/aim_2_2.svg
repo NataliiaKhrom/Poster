@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 167.8717 166.8717">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        opacity: 0.44;
+      }
+
+      .cls-3 {
+        opacity: 0.9;
+      }
+
+      .cls-4 {
+        opacity: 0.08;
+      }
+
+      .cls-5 {
+        opacity: 0.04;
+      }
+
+      .cls-6 {
+        opacity: 0.59;
+      }
+
+      .cls-7 {
+        fill: url(#Безымянный_градиент_28);
+      }
+
+      .cls-8 {
+        opacity: 0.61;
+      }
+    </style>
+    <radialGradient id="Безымянный_градиент_28" data-name="Безымянный градиент 28" cx="83.4358" cy="83.4359" r="83" gradientUnits="userSpaceOnUse">
+      <stop offset="0.7268" stop-color="aqua" stop-opacity="0"/>
+      <stop offset="0.8286" stop-color="aqua" stop-opacity="0.0073"/>
+      <stop offset="0.8653" stop-color="aqua" stop-opacity="0.034"/>
+      <stop offset="0.8914" stop-color="aqua" stop-opacity="0.0804"/>
+      <stop offset="0.9126" stop-color="aqua" stop-opacity="0.1467"/>
+      <stop offset="0.9307" stop-color="aqua" stop-opacity="0.233"/>
+      <stop offset="0.9467" stop-color="aqua" stop-opacity="0.3397"/>
+      <stop offset="0.9612" stop-color="aqua" stop-opacity="0.4669"/>
+      <stop offset="0.9746" stop-color="aqua" stop-opacity="0.6149"/>
+      <stop offset="0.987" stop-color="aqua" stop-opacity="0.7842"/>
+      <stop offset="0.998" stop-color="aqua" stop-opacity="0.9638"/>
+      <stop offset="1" stop-color="aqua"/>
+    </radialGradient>
+  </defs>
+  <g id="Слой_127" data-name="Слой 127">
+    <g id="Слой_49_копия_" data-name="Слой 49 (копия)">
+      <g id="центр_копия_" data-name="центр (копия)">
+        <path class="cls-7" d="M83.4358,6.4359a77,77,0,1,1-77,77,77.0872,77.0872,0,0,1,77-77m0-6a83,83,0,1,0,83,83,83,83,0,0,0-83-83Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
