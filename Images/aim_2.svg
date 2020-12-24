@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.8717 166.8717">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        opacity: 0.44;
+      }
+
+      .cls-3 {
+        opacity: 0.9;
+      }
+
+      .cls-4 {
+        opacity: 0.08;
+      }
+
+      .cls-5 {
+        opacity: 0.04;
+      }
+
+      .cls-6 {
+        opacity: 0.59;
+      }
+
+      .cls-7 {
+        fill: none;
+        stroke: aqua;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-8 {
+        opacity: 0.61;
+      }
+    </style>
+  </defs>
+  <g id="Слой_127" data-name="Слой 127">
+    <g id="Слой_49_копия_" data-name="Слой 49 (копия)">
+      <g id="центр_копия_" data-name="центр (копия)">
+        <circle class="cls-7" cx="83.4358" cy="83.4358" r="81.9358"/>
+      </g>
+    </g>
+  </g>
+</svg>
