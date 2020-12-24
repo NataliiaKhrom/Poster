@@ -1,0 +1,203 @@
+
+/* INFO */
+@media all and (max-width: 850px) and (orientation: landscape) {
+	.window_form::before, .window_form2::before  {
+		background-size: calc(100% - 10vw);}
+}
+
+@media all and (max-width: 768px) and (orientation: portrait) {
+	.window_form, .window_form2, .darken, .eff {
+		display: 0;
+		opacity: 0;}
+
+	.window_1, .window_2 {
+		display: block;}
+}
+
+@media all and (max-width: 768px) and (orientation:landscape) {
+	.window_form, .window_form2, .darken, .eff {
+		display: 0;
+		opacity: 0;}
+		.window_1_2, .window_2_2 {
+			display: block;
+		}
+}
+
+/* STARS */
+
+@media all and (max-device-width: 1024px) and (orientation: portrait) {
+.backgr_stars2::before, .backgr_stars3::before, .backgr_stars::before, .backgr_stars_eff::before, .backgr_stars_eff2::before {
+	transform: rotate(90deg);
+}
+
+@media all and (max-device-width: 300px) and (orientation: portrait) {
+.cloud_left {
+	opacity: 0;}
+}
+
+
+/* STARS D EBUG */
+/* LENDSCAPE */
+
+@media all and (max-width: 940px) and (max-width: 940px) and (orientation: landscape) {
+	.star4::before {
+		background-size: calc(100% - 20vw);}
+
+		.star3::before {
+			background-size: calc(100% - 30vw);}
+
+		.star2::before {
+			background-size: calc(100% - 50vw);}
+
+			.star1::before {
+				background-size: calc(100% - 60vw);}
+
+				.cloud_4 {left: 10vw;}
+				.cloud_3 {left: -5vw;}
+}
+
+/* PORTRAIT */
+
+@media all and (max-width: 1600px) and (orientation: portrait) {
+	.star4 {opacity: 0;}
+}
+
+@media all and (max-width: 1405px) and (orientation: portrait) {
+		.star3::before {
+		background-size: calc(100% - 5vw);}
+}
+
+@media all and (max-width: 1235px) and (orientation: portrait) {
+		.star3 {
+			opacity: 0;}
+}
+
+@media all and (max-width: 490px) and (orientation: portrait) {
+		.cloud_4 {left: 10vw;}
+}
+@media all and (max-width: 560px) and (orientation: portrait) {
+		.star2::before {
+		background-size: calc(100% - 3vw);}
+}
+
+@media all and (max-width: 520px) and (orientation: portrait) {
+		.star2::before {
+		background-size: calc(100% - 3vw);}
+		.star1::before {
+		background-size: calc(100% - 2vw);}
+}
+
+@media all and (max-width: 260px) and (orientation: portrait) {
+		.star1::before {
+		background-size: calc(100% - 3vw);}
+}
+
+/* ДРУГИЕ УСТРОЙСТВА */
+
+/* iPad */
+/* iPad */
+/* iPad */
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+.btn1 {
+			display: none;}
+.container, .window_form, .darken, .window_form2, .eff {
+			display: none;}
+.container, .window_form {
+			 opacity: 0;}
+}
+
+/* iPad Portrait */
+/* iPad Portrait */
+/* iPad Portrait */
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+.window_1_2, .window_2_2 {
+		 opacity: 0;}
+.window_1, .window_2 {
+		 display: block;}
+.cloud_right::before, .cloud_left::before {
+ background-size: auto 38%;}
+.cloud_left::before {
+	top: 10vh;
+	left: -4vw;}
+.cloud_4 {
+	left: 7vw;}
+.cloud_3 {
+	top: -2vh;}
+.backgr_stars::before, .backgr_stars_eff::before, .backgr_stars_eff2::before {
+		background-size: auto 60%;}
+.backgr_stars2::before, .backgr_stars3::before {
+		background-size: auto 80%;}
+}
+
+/* iPad Landscape */
+/* iPad Landscape */
+/* iPad Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+.window_1, .window_2 {
+		 opacity: 0;}
+.window_1_2, .window_2_2 {
+		display: block;}
+.cloud_left::before {
+			left: -8vh;}
+.backgr_stars::before, .backgr_stars_eff::before, .backgr_stars_eff2::before {
+				background-size: auto 70%; }
+.backgr_stars2::before, .backgr_stars3::before {
+				background-size: auto 50%; }
+}
+
+
+  /* iPhone */
+ /* iPhone */
+ /* iPhone */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+body {top: -10vh;}
+.btn1 {
+			display: none;}
+.container, .window_form, .darken, .window_form2, .eff {
+		display: none;}
+ .container, .window_form, .window_form2 {
+	 opacity: 0;}
+}
+
+
+  /* iPhone Portrait */
+	  /* iPhone Portrait */
+		  /* iPhone Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+
+	body {top: -10vh;}
+	.star3, .star4, .cloud_3, .cloud_4, .window_1_2, .window_2_2 {
+				 /*display: none;*/
+			 		opacity: 0;}
+	.window_1, .window_2 {
+	 	display: block;}
+	.cloud_right::before {
+	 				background-size: auto 40%;
+					top: 10vh;}
+	.star2::before {
+					 background-size: auto 65%;}
+.backgr_stars::before, .backgr_stars_eff::before, .backgr_stars_eff2::before {
+			background-size: auto 60% ;}
+	}
+
+/* iPhone Landscape */
+	/* iPhone Landscape */
+		/* iPhone Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+.container, .window_form, .container, .window_1, .window_2 {
+		 opacity: 0;}
+.window_1_2, .window_2_2 {
+		display: block;}
+.cloud_left::before {
+						left: -8vh;}
+.backgr_stars::before, .backgr_stars_eff::before, .backgr_stars_eff2::before {
+				background-size: auto 70%; }
+.backgr_stars2::before, .backgr_stars3::before {
+				background-size: auto 50%; }
+}
