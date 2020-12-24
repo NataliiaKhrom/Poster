@@ -557,7 +557,7 @@ body {
                         bottom: 0;}
                       .darken::before {
                          background: url('../Images/darken_2.svg') no-repeat center;
-                         background-size: auto 130%;
+                         background-size: auto 142%;
                          content: "";
                          position: absolute;
                          width: 100%;
