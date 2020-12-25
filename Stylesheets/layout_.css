@@ -59,7 +59,7 @@ body {
           bottom: 0;}
        .backgr_detail::before {
          opacity: 1;
-         background: url('../Images/b_detail_fullcircle_2.svg') no-repeat center;
+         background: url('../Images/b_detail_fullcircle_3.svg') no-repeat center;
          background-size: auto 145%;
           content: "";
           position: absolute;
