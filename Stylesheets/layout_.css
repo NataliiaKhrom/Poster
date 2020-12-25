@@ -80,7 +80,6 @@ body {
             .effect::before {
               opacity: .4;
                background: url('../Images/effect.svg') no-repeat center;
-               background-blend-mode: difference;
                background-size: auto 130% ;
                content: "";
                position: absolute;
