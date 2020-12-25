@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="Stylesheets/reset.css">
+
+   <style media="screen">
+
+/* HOVER ELEMENTSS  */
+
+
+   .window_form {
+    width: 100%;
+    height: 100%;
+      position: fixed;
+     z-index: 5;
+     display: none;
+     top: 0;
+     left: 0;
+     right: 0;
+    bottom: 0;}
+  .window_form::before {
+     background: url('Images/window_1.svg') no-repeat center;
+     background-size: auto 30% ;
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 30%;}
+
+
+
+   /* PLANETS*/
+
+.pocket {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+ .planet1 {
+   z-index: 1;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+
+ .planet:hover p {
+   display: block;
+ }
+
+
+
+ .planet2 {
+      z-index: 1;
+ position: absolute;
+ top: 98%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+ .planet3 {
+      z-index: 1;
+ position: absolute;
+ top: 125%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+
+
+ .planet_backgr {
+   width: 100%;
+   height: 100%;
+   /*opacity: 0; */
+     position: fixed;
+    z-index: 0;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+   bottom: 0}
+ .planet_backgr::before {
+      background: url('Images/planet_backgr.svg') no-repeat center;
+      background-size: auto 160%;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;}
+
+ /* .planet_backgr {
+ position: absolute;
+ top: 0%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ }
+
+ img { display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 90%;}
+*/
+
+ /*
+   .planet1 {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     display: inline-block;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;}
+   .planet1::before {
+      background: url('Images/planet_1.svg') no-repeat center;
+      background-size: auto 20% ;
+      width: 100%;
+      height: 100%;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;}
+
+      .planet2 {
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: inline-block;
+         top: 35%;
+         left: 0;
+         right: 0;
+         bottom: 0;}
+      .planet2::before {
+         background: url('Images/planet_2.svg') no-repeat center;
+         background-size: auto 20% ;
+         width: 100%;
+         height: 100%;
+         content: "";
+         position: absolute;
+         width: 100%;
+         height: 100%;}
+
+         .planet3 {
+           width: 100%;
+           height: 100%;
+           position: absolute;
+           display: inline-block;
+            top: 43%;
+            left: 0;
+            right: 0;
+            bottom: 0;}
+         .planet3::before {
+            background: url('Images/planet_3.svg') no-repeat center;
+            background-size: auto 20% ;
+            width: 100%;
+            height: 100%;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;} */
+
+.target {
+  width: 100%;
+  height: 100%;
+  /*opacity: 0; */
+    position: fixed;
+   z-index: 5;
+   display: block;
+   top: 0;
+   left: 0;
+   right: 0;
+  bottom: 0}
+.target::before {
+     background: url('Images/aim.svg') no-repeat center;
+     background-size: auto 57% ;
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;}
+
+
+/* CLOUDS*/
+
+ .cloud_right {
+  width: 100%;
+  height: 100%;
+  /*opacity: 0; */
+    position: fixed;
+   z-index: 5;
+   display: block;
+   top: 0;
+   left: 0;
+   right: 0;
+  bottom: 0;}
+.cloud_right::before {
+   background: url('Images/cloud_right_2.svg') no-repeat right top;
+   background-size: auto 57% ;
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;}
+
+   .cloud_left {
+    width: 100%;
+    height: 100%;
+    /*opacity: 0; */
+      position: fixed;
+     z-index: 5;
+     display: block;
+     top: 0;
+     left: 0;
+     right: 0;
+    bottom: 0;}
+   .cloud_left::before {
+     background: url('Images/cloud_left_3.svg') no-repeat left bottom;
+     background-size: auto 50% ;
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;}
+
+  .cloud_3 {
+    width: 100%;
+    height: 100%;
+  /*opacity: 0; */
+    position: fixed;
+   z-index: 5;
+   display: block;
+   top: 0;
+   left: 0;
+   right: 0;
+  bottom: 0;}
+ .cloud_3::before {
+   background: url('Images/cloud_3.svg') no-repeat;
+   background-size: auto 10%;
+   content: "";
+   position: absolute;
+   top: 13%;
+   left: 15%;
+   width: 100%;
+   height: 100%;}
+
+   .cloud_4 {
+     width: 100%;
+     height: 100%;
+   /*opacity: 0; */
+     position: fixed;
+    z-index: 5;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+   bottom: 0;}
+  .cloud_4::before {
+    background: url('Images/cloud_4.svg') no-repeat;
+    background-size: auto 5%;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    width: 100%;
+    height: 100%;}
+
+
+/* STARS */
+
+   .star1 {
+     position: fixed;
+     z-index: 4;
+     display: block;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;}
+  .star1::before {
+        background: url('Images/an_star_1.svg') no-repeat center;
+        background-size: auto 55% ;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        animation: star4 6s linear infinite;}
+
+     .star2 {
+       position: fixed;
+       z-index: 4;
+       display: block;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;}
+    .star2::before {
+          background: url('Images/an_star_2.svg') no-repeat center;
+          background-size: auto 70% ;
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          animation: star4 6s linear infinite;}
+
+
+       .star3 {
+         position: fixed;
+         z-index: 4;
+         display: block;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;}
+      .star3::before {
+            background: url('Images/an_star_3.svg') no-repeat center;
+            background-size: auto 100% ;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            animation: star4 6s linear infinite;}
+
+
+
+/* ПРИМЕР КОДА */
+
+.star4 {
+   position: fixed;
+   z-index: 4;
+   display: block;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;}
+.star4::before {
+   background: url('Images/an_star_4.svg') no-repeat center;
+   background-size: auto 120% ;
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   animation: star4 6s linear infinite;
+}
+
+@keyframes star4 {
+   0% {transform: rotate(0deg);}
+   100% {transform: rotate(-360deg);}
+ }
+
+/* DETAILS BACKGROUND */
+
+
+ .backgr_detail {
+    position: fixed;
+    z-index: 3;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;}
+  .backgr_detail::before {
+    background: url('Images/b_detail_fullcircle.svg') no-repeat center;
+  background-size: auto 145% ;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;}
+
+.backgr_stars {
+     position: fixed;
+     z-index: 3;
+     display: block;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;}
+
+.backgr_stars::before {
+  background: url('Images/backgr_detail.svg') center;
+background-size: auto 90% ;
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;}
+
+  .backgr_stars2 {
+  position: fixed;
+  z-index: 3;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;}
+.backgr_stars2::before {
+background: url('Images/backgr_details_dots.svg') center;
+background-size: auto 100% ;
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;}
+
+.backgr_stars3 {
+position: fixed;
+z-index: 3;
+display: block;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;}
+.backgr_stars3::before {
+background: url('Images/backgr_details_dots.svg') center;
+background-size: auto 110% ;
+content: "";
+position: absolute;
+top: 10%;
+right: 10%;
+width: 100%;
+height: 100%;}
+
+
+
+/* BACKGROUND */
+
+
+   .backgr2 {
+
+        position: fixed;
+        z-index: 2;
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;}
+     .backgr2::before {
+       opacity: 1;
+        background: url('Images/backgr_fix_2.svg') no-repeat center;
+        background-size: auto 130% ;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;}
+
+        .effect {
+          position: fixed;
+             z-index: 7;
+             display: block;
+             top: 0;
+             left: 0;
+             right: 0;
+             bottom: 0;}
+          .effect::before {
+            opacity: .5;
+             background: url('Images/effect.svg') no-repeat center;
+             background-size: auto 130% ;
+             content: "";
+             position: absolute;
+             width: 100%;
+             height: 100%;}
+
+
+      /*.backgr_long {
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;}
+      .backgr_long::before {
+         background: url('Images/backgr_sketch.svg') no-repeat center;
+         background-size: auto 100% ;
+         content: "";
+         position: absolute;
+         width: 100%;
+         height: 100%;} */
+
+ .backgr_long {
+      position: absolute;
+      opacity: 0;
+      width: 100%
+      height: 100%;
+    }
+
+
+
+   /* GENERAL BODY STYLING*/
+   body {
+     background: #000017;
+     overflow-y: scroll;}
+
+     /* body::before {
+       content: '';
+       width: 100%;
+       position: absolute;
+       background: url('Images/maket.png') no-repeat;
+       opacity: 0;
+       display: block;
+       margin-left: 0;
+       margin-top: 0;
+       height: 100%;
+       opacity: .2;} */
+
+
+
+   </style>
+
+  </head>
+
+
+  <body>
+<!-- ОТЛОЖЕННЫЕ ДЕТАЛИ   -->
+<!--  <div class="background">
+    <div class="backgr"></div>
+    <div class="backgr2"></div>
+
+    <div class="backgr2"></div>
+  </div> -->
+
+
+  <!-- АКТИВНЫЕ ДЕТАЛИ   -->
+  <div class="backgr_long">
+
+    <img src="Images/backgr_sketch.svg" alt="">
+
+  </div>
+
+  <div class="backgr"></div>
+
+  <div class="backgr2"></div>
+
+  <div class="backgr_long"></div>
+
+  <div class="backgr_detail">
+   <!-- <img src='Images/b_detail_circle.svg' alt=''> -->
+  </div>
+
+  <div class="backgr_stars"></div>
+    <div class="backgr_stars2"></div>
+      <div class="backgr_stars3"></div>
+
+    <div class="star1"></div>
+    <div class="star2"></div>
+    <div class="star3"></div>
+    <div class="star4"></div>
+
+<div class="cloud_right">
+</div>
+
+
+<div class="cloud_left"></div>
+
+<div class="cloud_3"></div>
+<div class="cloud_4"></div>
+
+<div class="target"></div>
+
+<div class="pocket">
+
+<div class="planet1">
+ <!-- <img src="Images/planet_1.svg" alt=""> -->
+ <img src="Images/planet1.svg" alt="">
+</div>
+
+<div class="planet2">
+  <!-- <img src="Images/planet_2.svg" alt=""> -->
+  <img src="Images/planet2.svg" alt="">
+</div>
+
+<div class="planet3">
+   <!-- <img src="Images/Frame_3.svg" alt=""> -->
+   <img src="Images/planet_3.svg" alt="">
+</div>
+
+<div class="planet_backgr">
+   <!-- <img src="Images/planet_backgr.svg" alt=""> -->
+
+</div>
+
+</div>
+
+<div class="effect"></div>
+
+<div class="window_form"></div>
+
+
+
+
+
+  </body>
+</html>
