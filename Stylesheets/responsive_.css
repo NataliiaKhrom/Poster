@@ -27,13 +27,18 @@
     	background-size: calc(100% - 25vw);}
 }
 
-@media all and (max-width: 768px) and (orientation:landscape) {
+@media all and (max-width: 480px) and (orientation:landscape) {
 	.window_form, .window_form2, .darken, .eff {
 		display: 0;
 		opacity: 0;}
 		.window_1_2, .window_2_2 {
 			display: block;
 		}
+
+		.window_1_2::before  {
+			background-size: calc(100% - 35vw);}
+			.window_2_2::before  {
+			background-size: calc(100% - 25vw);}
 }
 
 @media all and (max-width: 768px) and (orientation: portrait) {
