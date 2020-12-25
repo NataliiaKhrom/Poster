@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 616 156">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        opacity: 0.6;
+      }
+
+      .cls-3 {
+        opacity: 0.44;
+      }
+
+      .cls-4 {
+        opacity: 0.9;
+      }
+
+      .cls-5 {
+        opacity: 0.08;
+      }
+
+      .cls-6 {
+        opacity: 0.04;
+      }
+
+      .cls-7 {
+        opacity: 0.59;
+      }
+
+      .cls-8 {
+        opacity: 0.76;
+        mix-blend-mode: color-burn;
+      }
+
+      .cls-9 {
+        font-size: 25px;
+        font-family: RobotoMono-Bold, Roboto Mono;
+        font-weight: 700;
+      }
+
+      .cls-10, .cls-9 {
+        fill: #9cffff;
+      }
+
+      .cls-10 {
+        font-size: 11px;
+        font-family: RobotoMono-Regular, Roboto Mono;
+        letter-spacing: -0.075em;
+      }
+
+      .cls-11, .cls-17 {
+        font-size: 14px;
+        font-family: Roboto-Medium, Roboto;
+        font-weight: 500;
+      }
+
+      .cls-11 {
+        fill: #ff151b;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.0078em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0.0054em;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.0063em;
+      }
+
+      .cls-15 {
+        letter-spacing: -0.0054em;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.0146em;
+      }
+
+      .cls-17 {
+        fill: #a1f0f0;
+      }
+
+      .cls-18 {
+        fill: none;
+        stroke: #9cffff;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+        opacity: 0.5;
+      }
+
+      .cls-19 {
+        opacity: 0.61;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <g id="Слой_319" data-name="Слой 319">
+      <g id="Слой_321" data-name="Слой 321">
+        <g id="Слой_322_копия_" data-name="Слой 322 (копия)">
+          <g id="Слой_336" data-name="Слой 336">
+            <g id="Слой_317_копия3_" data-name="Слой 317 (копия3)">
+              <rect class="cls-8" width="616" height="156"/>
+              <text class="cls-9" transform="translate(14.2705 28.7148)">Марс</text>
+              <text class="cls-10" transform="translate(356.4658 60.4131)">Информация от 20.11.2078<tspan x="0" y="13.2002">Температура на поверхности: −120 °C </tspan><tspan x="0" y="26.4004">Атмосферное давление: 0,4—0,87 кПа</tspan><tspan x="0" y="39.5996">Скорость ветра 2—7 м/с (лето)</tspan></text>
+              <text class="cls-10" transform="translate(16.0889 61.3545)">Средний экваториальный радиус: 3396,9 ± 0,4 км<tspan x="0" y="13.2002">Площадь поверхности: 144 млн км²</tspan><tspan x="0" y="26.4004">Сила тяжести: 39,4 % от земной (в 2,5 раза слабее)</tspan><tspan x="0" y="39.5996">Длина солнечных суток: 24 часа 39 минут</tspan><tspan x="0" y="79.2002"> </tspan></text>
+              <text class="cls-11" transform="translate(155.6133 134.3184)">С<tspan class="cls-12" x="9.1396" y="0">та</tspan><tspan class="cls-13" x="23.4199" y="0">т</tspan><tspan class="cls-14" x="30.4199" y="0">у</tspan><tspan x="37.1465" y="0" xml:space="preserve">с запроса:  в дос</tspan><tspan class="cls-13" x="147.6084" y="0">т</tspan><tspan x="154.6084" y="0">упе к п</tspan><tspan class="cls-12" x="199.7393" y="0">о</tspan><tspan x="207.6006" y="0">л</tspan><tspan class="cls-15" x="215.6533" y="0">е</tspan><tspan class="cls-13" x="223.0908" y="0">т</tspan><tspan x="230.0908" y="0">у </tspan><tspan class="cls-16" x="240.3926" y="0">о</tspan><tspan x="248.1582" y="0">тказано</tspan></text>
+              <text class="cls-17" transform="translate(157.3213 135.1719)">С<tspan class="cls-12" x="9.1396" y="0">та</tspan><tspan class="cls-13" x="23.4199" y="0">т</tspan><tspan class="cls-14" x="30.4199" y="0">у</tspan><tspan x="37.1465" y="0" xml:space="preserve">с запроса:  в дос</tspan><tspan class="cls-13" x="147.6084" y="0">т</tspan><tspan x="154.6084" y="0">упе к п</tspan><tspan class="cls-12" x="199.7393" y="0">о</tspan><tspan x="207.6006" y="0">л</tspan><tspan class="cls-15" x="215.6533" y="0">е</tspan><tspan class="cls-13" x="223.0908" y="0">т</tspan><tspan x="230.0908" y="0">у </tspan><tspan class="cls-16" x="240.3926" y="0">о</tspan><tspan x="248.1582" y="0">тказано</tspan></text>
+              <line class="cls-18" x1="17.1847" y1="37.3201" x2="445.8401" y2="37.3201"/>
+              <polyline class="cls-18" points="16.96 44.149 408.036 44.149 600 44.331"/>
+              <polyline class="cls-18" points="14.624 113.655 405.699 113.655 597.664 113.837"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
