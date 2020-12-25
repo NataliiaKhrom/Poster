@@ -13,6 +13,20 @@
 		display: block;}
 }
 
+@media all and (max-width: 420px) and (orientation: portrait) {
+	.window_form, .window_form2, .darken, .eff {
+		display: 0;
+		opacity: 0;}
+
+	.window_1, .window_2 {
+		display: block;}
+
+    .window_1::before  {
+  		background-size: calc(100% - 35vw);}
+      .window_2::before  {
+    	background-size: calc(100% - 25vw);}
+}
+
 @media all and (max-width: 768px) and (orientation:landscape) {
 	.window_form, .window_form2, .darken, .eff {
 		display: 0;
@@ -21,6 +35,24 @@
 			display: block;
 		}
 }
+
+@media all and (max-width: 768px) and (orientation: portrait) {
+	.target::before {
+		background-size: calc(100% - 40vw);}
+	.planet1::before {
+		background-size: calc(100% - 85vw);}
+	}
+
+
+@media all and (max-width: 420px) and (orientation: portrait) {
+	.target::before {
+		background-size: auto 38%;}
+	.planet1::before {
+		background-size: auto 11%;}
+	}
+
+
+
 
 /* STARS */
 
@@ -32,6 +64,13 @@
 @media all and (max-device-width: 300px) and (orientation: portrait) {
 .cloud_left {
 	opacity: 0;}
+}
+
+@media all and (max-device-width: 450px) and (min-device-height: 600px) and (orientation: portrait) {
+.cloud_left {
+	opacity: 0;}
+.window_1, .window_2 {
+  background-size: calc(100% - 10vw);}
 }
 
 @media all and (max-device-width: 1100px) and (orientation: landscape) {
@@ -187,7 +226,8 @@ body {top: -10vh;}
 	 				background-size: auto 40%;}
   .cloud_left::before {
           background-size: auto 40%;
-        top: 5vh;}
+        top: 5vh;
+				left: -3vw;}
 
 	.star2::before {
 					 background-size: auto 65%;}
@@ -211,4 +251,59 @@ body {top: -10vh;}
 				background-size: auto 70%; }
 .backgr_stars2::before, .backgr_stars3::before {
 				background-size: auto 50%; }
+}
+
+@media only screen and (max-device-width: 500px) and (min-device-height: 800px) and (orientation: landscape) {
+  .cloud_left::before {
+        display: none;}
+  .window_1::before {
+    background-size: calc(100% - 6vw); }
+    .window_2::before {
+      background-size: calc(100% - 6vw); }
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .window_form, .window_form2, .darken, .eff {
+		display: 0;
+		opacity: 0;}
+
+	.window_1, .window_2 {
+		display: block;}
+}
+
+
+/* Smartphones (portrait) ----------- */
+/* Smartphones (portrait) ----------- */
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+    .cloud_left {
+      display: none;}
+
+    .cloud_right::before {
+      background-size: auto 37%;}
+
+			.window_1::before  {
+				background-size: calc(100% - 30vw);}
+				.window_2::before  {
+				background-size: calc(100% - 20vw);}
+
+      .star2::before {
+        background-size: calc(100% + 12vw);
+      }
+
+      .backgr_detail_1::before
+      {background-size: auto 50%;}
+
+      .cloud_4 {
+        display: none;}
+
+		.backgr_stars::before, .backgr_stars_eff::before, .backgr_stars_eff2::before {
+						background-size: auto 55%;}
+				.backgr_stars2::before, .backgr_stars3::before {
+						background-size: auto 65%;}
+
 }
