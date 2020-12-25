@@ -232,7 +232,7 @@ body {top: -10vh;}
   .cloud_left::before {
           background-size: auto 40%;
         top: 5vh;
-				left: -3vw;}
+				left: -5vw;}
 
 	.star2::before {
 					 background-size: auto 65%;}
